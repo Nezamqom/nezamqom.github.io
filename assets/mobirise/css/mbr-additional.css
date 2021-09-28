@@ -1414,7 +1414,7 @@ a {
 .cid-sKiqWBqFh9 {
   padding-top: 45px;
   padding-bottom: 45px;
-  background-color: #ffffff;
+  background-image: url("../../../assets/images/background1.jpg");
 }
 @media (max-width: 767px) {
   .cid-sKiqWBqFh9 .media-wrap {
@@ -1479,7 +1479,7 @@ a {
 .cid-sKedevoEOt {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-image: url("../../../assets/images/background5.jpg");
+  background-image: url("../../../assets/images/background4.jpg");
 }
 .cid-sKedevoEOt .card-wrapper {
   background: #ffffff;
@@ -1514,7 +1514,7 @@ a {
 .cid-sKefCE8bKz {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: #ffffff;
+  background-image: url("../../../assets/images/background5.jpg");
 }
 .cid-sKefCE8bKz .row {
   align-items: center;
@@ -1562,7 +1562,7 @@ a {
 .cid-sKeh2W5HHp {
   padding-top: 4rem;
   padding-bottom: 4rem;
-  background-color: #ffffff;
+  background-image: url("../../../assets/images/background1.jpg");
 }
 .cid-sKeh2W5HHp .top-line {
   display: flex;
@@ -1614,7 +1614,11 @@ a {
 .cid-sKeoOSDSuJ {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: #ffffff;
+  background-image: url("../../../assets/images/background4.jpeg");
+}
+.cid-sKeoOSDSuJ .mbr-overlay {
+  background: #fafafa;
+  opacity: 0.1;
 }
 .cid-sKeoOSDSuJ img,
 .cid-sKeoOSDSuJ .item-img {
@@ -1668,7 +1672,7 @@ a {
 .cid-sKfbXd7sWI {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #ffffff;
+  background-image: url("../../../assets/images/background5.jpg");
 }
 .cid-sKfcjVh6Ls {
   padding-top: 3rem;
@@ -1686,53 +1690,261 @@ a {
 .cid-sKfcjVh6Ls .mbr-text {
   text-align: center;
 }
-.cid-sKfLTtO3wu {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  background-image: url("../../../assets/images/dollar-euro-for-engineers-all-of-them-for-construction-1148x646.jpg");
+.cid-sKl942KOyy {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/background4-1.jpeg");
 }
-.cid-sKfLTtO3wu .mbr-overlay {
-  background: #fafafa;
-  opacity: 0.1;
+.cid-sKl942KOyy .item {
+  padding-bottom: 2rem;
 }
-.cid-sKfLTtO3wu img,
-.cid-sKfLTtO3wu .item-img {
-  width: 100%;
+.cid-sKl942KOyy .item-wrapper {
+  height: 100%;
+  position: relative;
+}
+.cid-sKl942KOyy .item-wrapper img {
   height: 100%;
   object-fit: cover;
 }
-.cid-sKfLTtO3wu .item:focus,
-.cid-sKfLTtO3wu span:focus {
-  outline: none;
-}
-.cid-sKfLTtO3wu .item {
-  cursor: pointer;
-  margin-bottom: 2rem;
-  position: relative;
-}
-.cid-sKfLTtO3wu .item-wrapper {
-  position: unset;
-  border-radius: 4px;
-  background: #fafafa;
-  height: 100%;
+.cid-sKl942KOyy .item-wrapper .icon-wrapper {
+  pointer-events: none;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  font-size: 22px;
+  left: 50%;
+  top: 50%;
   display: flex;
-  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  opacity: 0;
+  color: #ffffff;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: #1b1b1b;
+  transition: 0.2s;
 }
-@media (min-width: 992px) {
-  .cid-sKfLTtO3wu .item-wrapper .item-content {
-    padding: 2rem;
+.cid-sKl942KOyy .item-wrapper:hover .icon-wrapper {
+  opacity: 0.7;
+}
+.cid-sKl942KOyy .carousel-control,
+.cid-sKl942KOyy .close {
+  background: #1b1b1b;
+}
+.cid-sKl942KOyy .carousel-control-prev {
+  margin-left: 2.5rem;
+}
+.cid-sKl942KOyy .carousel-control-prev span {
+  margin-right: 5px;
+}
+.cid-sKl942KOyy .carousel-control-next {
+  margin-right: 2.5rem;
+}
+.cid-sKl942KOyy .carousel-control-next span {
+  margin-left: 5px;
+}
+.cid-sKl942KOyy .close {
+  position: fixed;
+  opacity: 0.5;
+  font-size: 22px;
+  font-weight: 300;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: #fff;
+  top: 2.5rem;
+  right: 2.5rem;
+  border: 2px solid #fff;
+  text-shadow: none;
+  z-index: 5;
+  transition: opacity 0.3s ease;
+  font-family: 'Moririse2';
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.cid-sKl942KOyy .close::before {
+  content: '\e91a';
+}
+.cid-sKl942KOyy .close:hover {
+  opacity: 1;
+  background: #000;
+  color: #fff;
+}
+.cid-sKl942KOyy .carousel-control {
+  display: flex;
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  margin-top: -1.5rem;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.cid-sKl942KOyy .carousel-control.carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-sKl942KOyy .carousel-control.carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+@media (max-width: 767px) {
+  .cid-sKl942KOyy .carousel-control {
+    top: auto;
+    bottom: 1rem;
+  }
+}
+.cid-sKl942KOyy .carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 3px;
+}
+.cid-sKl942KOyy .carousel-indicators li {
+  max-width: 15px;
+  height: 15px;
+  width: 15px;
+  max-height: 15px;
+  margin: 3px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.cid-sKl942KOyy .carousel-indicators li.active,
+.cid-sKl942KOyy .carousel-indicators li:hover {
+  opacity: 0.9;
+}
+.cid-sKl942KOyy .carousel-indicators li::after,
+.cid-sKl942KOyy .carousel-indicators li::before {
+  content: none;
+}
+.cid-sKl942KOyy .carousel-indicators.ie-fix {
+  left: 50%;
+  display: block;
+  width: 60%;
+  margin-left: -30%;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .cid-sKl942KOyy .carousel-indicators {
+    display: none !important;
   }
 }
 @media (max-width: 991px) {
-  .cid-sKfLTtO3wu .item-wrapper .item-content {
-    padding: 1rem;
+  .cid-sKl942KOyy .carousel-indicators {
+    margin-bottom: 3.625rem !important;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 }
-.cid-sKfLTtO3wu .mbr-section-btn {
-  margin-top: auto !important;
+@media (max-width: 767px) {
+  .cid-sKl942KOyy .carousel-indicators {
+    display: none;
+  }
 }
-.cid-sKfLTtO3wu .mbr-section-title {
-  color: #232323;
+.cid-sKl942KOyy .carousel-inner {
+  display: flex;
+  align-items: center;
+}
+.cid-sKl942KOyy .carousel-inner > .active {
+  display: block;
+}
+.cid-sKl942KOyy .carousel-control.left {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-sKl942KOyy .carousel-control.right {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-sKl942KOyy .carousel-control:hover {
+  background: #1b1b1b;
+  color: #fff;
+  opacity: 1;
+}
+@media (max-width: 768px) {
+  .cid-sKl942KOyy .carousel-control,
+  .cid-sKl942KOyy .carousel-indicators,
+  .cid-sKl942KOyy .modal .close {
+    position: fixed;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sKl942KOyy .mbr-slider .carousel-control {
+    top: auto;
+    bottom: 20px;
+  }
+  .cid-sKl942KOyy .mbr-slider > .container .carousel-control {
+    margin-bottom: 0;
+  }
+}
+.cid-sKl942KOyy .carousel-indicators .active,
+.cid-sKl942KOyy .carousel-indicators li {
+  width: 7px;
+  height: 7px;
+  margin: 3px;
+  background: #000000;
+  opacity: 0.5;
+  border: 4px solid #000000;
+}
+.cid-sKl942KOyy .carousel-indicators .active {
+  background: #fff;
+}
+.cid-sKl942KOyy .carousel-indicators li {
+  max-width: 15px;
+  max-height: 15px;
+  border-radius: 50%;
+}
+.cid-sKl942KOyy .modal {
+  padding-left: 0 !important;
+  position: fixed;
+  overflow: hidden;
+  padding-right: 0 !important;
+}
+.cid-sKl942KOyy .modal-dialog {
+  margin: 0 auto;
+  max-width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.cid-sKl942KOyy .modal-content {
+  border-radius: 0;
+  border: none;
+  background: transparent;
+}
+.cid-sKl942KOyy .modal-body {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.cid-sKl942KOyy .modal-body img {
+  width: 100%;
+  object-fit: contain;
+  max-height: calc(100vh - 1.75rem);
+}
+.cid-sKl942KOyy .carousel {
+  width: 100%;
+}
+.cid-sKl942KOyy .modal-backdrop.in {
+  opacity: 0.8;
+}
+.cid-sKl942KOyy .modal.fade .modal-dialog {
+  transition: margin-top 0.3s ease-out;
+}
+.cid-sKl942KOyy .modal.fade .modal-dialog,
+.cid-sKl942KOyy .modal.in .modal-dialog {
+  transform: none;
+}
+.cid-sKl942KOyy .mbr-gallery .item-wrapper {
+  cursor: pointer;
+}
+.cid-sKl942KOyy H6 {
+  text-align: center;
 }
 .cid-sKiby0KA9A {
   z-index: 1000;
@@ -2089,7 +2301,7 @@ a {
 .cid-sKiqWBqFh9 {
   padding-top: 45px;
   padding-bottom: 45px;
-  background-color: #ffffff;
+  background-image: url("../../../assets/images/background1.jpg");
 }
 @media (max-width: 767px) {
   .cid-sKiqWBqFh9 .media-wrap {
@@ -2154,7 +2366,7 @@ a {
 .cid-sKixzxg469 {
   padding-top: 4rem;
   padding-bottom: 4rem;
-  background-color: #ffffff;
+  background-image: url("../../../assets/images/background4.jpg");
 }
 .cid-sKixzxg469 .card-box {
   z-index: 10;
@@ -2537,7 +2749,7 @@ a {
 .cid-sKiy6NVavE {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #ffffff;
+  background-image: url("../../../assets/images/construction-department-pattern-1280x720.jpg");
 }
 .cid-sKiy6NVavE .card .card-header {
   background-color: transparent;
@@ -2560,7 +2772,7 @@ a {
 }
 .cid-sKiy6NVavE .panel-title-edit {
   color: #000000;
-  text-align: right;
+  text-align: center;
 }
 .cid-sKiy6NVavE .panel-text {
   text-align: right;
@@ -2568,7 +2780,7 @@ a {
 .cid-sKiyLay3p6 {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-image: url("../../../assets/images/background8.jpg");
+  background-image: url("../../../assets/images/dollar-euro-for-engineers-all-of-them-for-construction-1148x646.jpg");
 }
 .cid-sKiyLay3p6 .card-wrapper {
   background: #ffffff;
@@ -2613,10 +2825,13 @@ a {
 .cid-sKjosC3GSh .mbr-text {
   text-align: center;
 }
+.cid-sKjosC3GSh .mbr-section-title {
+  text-align: center;
+}
 .cid-sKiqWBqFh9 {
   padding-top: 45px;
   padding-bottom: 45px;
-  background-color: #ffffff;
+  background-image: url("../../../assets/images/background1.jpg");
 }
 @media (max-width: 767px) {
   .cid-sKiqWBqFh9 .media-wrap {
